@@ -1,0 +1,46 @@
+@clickColor: rgb(0, 102, 255);
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(238, 232, 232);
+    
+    .nav-list-container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 960px;
+        width: 95vw;
+        height: 45px;
+
+        div {
+            display: flex;
+
+        }
+
+        >div:first-child {
+            a {
+                padding: 0px 10px;
+
+            }
+            >a:first-child{
+                padding-left: 0px;
+            }
+        }
+
+        a {
+            display: flex;
+            height: 100%;
+            align-items: center;
+            color: rgb(113, 119, 124);
+            font-size: 14px;
+            text-decoration: none;
+        }
+        .a-click{
+            color: rgb(34, 127, 248);
+        }
+        a:hover {
+            color: rgb(34, 127, 248);
+            cursor: pointer;
+        }
+    }
+}

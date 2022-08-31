@@ -1,0 +1,47 @@
+@import "~antd/dist/antd.css";
+@clickColor: rgb(0, 102, 255);
+
+.articles-container {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 700px;
+  position: relative;
+  > .articles-header {
+    height: 46px;
+
+    > .articles-category-container {
+      margin-left: 30px;
+      margin-top: 11.5px;
+      a {
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        color: #71777c;
+      }
+      a:hover {
+        color: @clickColor;
+        text-decoration: none;
+      }
+
+      .a-click {
+        color: @clickColor;
+      }
+    }
+  }
+  .articles {
+    // height: 100vh;
+  }
+}
+
+.ant-header-divider {
+  gap: 18px;
+  height: 15px;
+}
+
+.ant-h-a-divider {
+  display: flex;
+  clear: both;
+  width: 100%;
+  min-width: 100%;
+  margin: 0 0;
+}
